@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-nalgoo-typescript",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.js",
   "author": "Nalgoo",
   "license": "MIT",
   "scripts": {
-    "release": "git fetch && cross-env NODE_ENV=test np --no-publish --no-yarn --yolo"
+    "release": "git fetch && cross-env NODE_ENV=test np --no-yarn --yolo"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
