@@ -19,5 +19,10 @@ module.exports = {
 		// Enforce consistent indentation
 		// https://github.com/typescript-eslint/typescript-eslint/blob/main/packages/eslint-plugin/docs/rules/indent.md
 		'@typescript-eslint/indent': [baseStyleRules.indent[0], 'tab', baseStyleRules.indent[2]],
+
+		// Enforce a defaultProps definition for every prop that is not a required prop
+		// https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
+		// disable rule, we are using interfaces, types and default arguments
+		'react/require-default-props': [ 'error', { functions: 'defaultArguments' } ],
 	},
 };
