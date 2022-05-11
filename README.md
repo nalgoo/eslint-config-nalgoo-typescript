@@ -1,7 +1,9 @@
 `eslint-config-nalgoo-typescript`
 =================================
 
-eslint config for Nalgoo projects, based on airbnb config
+- eslint config used in Nalgoo projects
+- based on [airbnb's config](https://github.com/airbnb/javascript)
+- standalone typescript version
 
 # Installation
 
