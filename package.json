@@ -10,7 +10,8 @@
     "rules"
   ],
   "scripts": {
-    "release": "git fetch && cross-env NODE_ENV=test np --no-yarn --yolo"
+    "release": "git fetch && cross-env NODE_ENV=test np --no-yarn --yolo",
+    "test": "eslint -c index.js test/empty.js"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.13.0",
