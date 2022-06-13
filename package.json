@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-nalgoo-typescript",
   "description": "eslint config used in Nalgoo projects",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "repository": "https://github.com/nalgoo/eslint-config-nalgoo-typescript",
   "author": "Nalgoo",
   "license": "MIT",
